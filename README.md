@@ -6,6 +6,7 @@ GIT is a open source version control system. A brief overview on how GIT works i
 
 The next step would be to create a branch off main to use as a space to make edits and experimenting before committing them to the actual code. You can create as many branches as you’d like and they all act as basically a copy of the main file. 
 Inside the branches, make some changes to anything and when you fully finish making edits save them and make a commit. These changes would now be visible when you open the branch that you made the commit on. 
+
 On github, the changes you request would be shown as green or red from then original branch. The final step to this would be to merge the changes you proposed into that branch. Once everything is sorted, you would click the merge pull request and finish the pull request.
 In GIT, fetch only finds and downloads new data and commits from a file or repository that has changed. It does not do anything with it so the files you are currently working on wouldn’t be touched. You can also use the Push command, which works kind of the opposite way of the fetch command. Push allows you to export commits to another repository, whereas fetch imports commits from another repository. Pull on the other hand like with the pull requests, will add in whatever changes you implemented in another branch to the one you are currently on, merging them. This can sometimes cause a merge conflict and prevent the merge from happening. This can be caused by many issues, but typically can happen when multiple people try to work on a same branch.
 
